@@ -11,7 +11,7 @@ import Button from "@/app/components/Button";
 
 const Product_Details = async({params}) => {
    const {productid}=await params;
-const res=await fetch('http://localhost:3000/product.json',{cache:"no-store"});
+const res=await fetch('https://fret-nest.vercel.app/product.json',{cache:"no-store"});
 const products=await res.json();
 
 
