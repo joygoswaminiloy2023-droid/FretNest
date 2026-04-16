@@ -1,7 +1,7 @@
 import Product_card from "../components/Product_card";
 
 const Products = async () => {
-  const res = await fetch("http://localhost:3000/product.json");
+  const res = await fetch("http://localhost:3000/product.json",{cache:"no-store"});
   const products = await res.json();
 
   return (

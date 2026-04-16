@@ -3,7 +3,7 @@ import Pieproduct from "@/app/components/Pieproduct";
 import Salasegraph from "@/app/components/Salasegraph";
 
 const Analytics = async () => {
-  const res = await fetch("http://localhost:3000/product.json");
+  const res = await fetch("https://fret-nest.vercel.app//product.json",{cache:"no-store"});
   const analytics = await res.json();
 
   return (
