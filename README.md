@@ -1,36 +1,150 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 🎸 Fret Nest — Guitar Shop Web App
 
-## Getting Started
+## 🌐 Live Demo
 
-First, run the development server:
+🔗 https://fret-nest.vercel.app/
+
+---
+
+## 🧠 Overview
+
+**Fret Nest** is a modern guitar shop web application built with Next.js. It provides a clean and responsive interface where users can browse guitars, view detailed product information, and explore different brands and categories.
+
+The project focuses on performance, smooth UI/UX, and a real-world e-commerce-like experience.
+
+---
+
+## ✨ Features
+
+* 🛍️ Browse a collection of guitars
+* 🔍 View detailed product pages
+* ⭐ Product ratings and descriptions
+* 📦 Stock availability display
+* 🎨 Modern UI with responsive design
+* ⚡ Fast performance with Next.js App Router
+
+---
+
+## 🛠️ Technologies Used
+
+* **Next.js (App Router)**
+* **React.js**
+* **Tailwind CSS**
+* **Lucide React Icons**
+* **Vercel (Deployment Platform)**
+
+> The app is deployed on Vercel, which provides fast and scalable hosting for modern web applications. ([Vercel][1])
+
+---
+
+## 📁 Project Structure
+
+```
+/app
+  /components
+  /product
+    /[productid]
+  /data
+/public
+/styles
+```
+
+---
+
+## 🚀 Getting Started
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/your-username/fret-nest.git
+```
+
+### 2. Navigate to project
+
+```bash
+cd fret-nest
+```
+
+### 3. Install dependencies
+
+```bash
+npm install
+```
+
+### 4. Run development server
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open:
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+```
+http://localhost:3000
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## ⚙️ Build & Deploy
 
-To learn more about Next.js, take a look at the following resources:
+### Build project
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```bash
+npm run build
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### Start production server
 
-## Deploy on Vercel
+```bash
+npm start
+```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### Deploy (Vercel)
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+```bash
+vercel
+```
+
+---
+
+## 📸 Screenshots
+
+*Add your screenshots here*
+Example:
+
+```
+/screenshots/home.png
+/screenshots/product.png
+```
+
+---
+
+## 🎯 Future Improvements
+
+* 🛒 Add to cart functionality
+* 🔐 User authentication
+* 💳 Payment integration
+* 🔎 Search & filter system
+* 📊 Admin dashboard
+
+---
+
+## 📄 License
+
+This project is licensed under the **MIT License**.
+
+---
+
+## 🙌 Acknowledgements
+
+* Next.js documentation
+* Vercel platform
+* Open-source UI inspirations
+
+---
+
+## 👨‍💻 Author
+
+Developed by **JOY** 🚀
+
+[1]: https://vercel.com/docs/frameworks/backend/nestjs?utm_source=chatgpt.com "NestJS on Vercel"
